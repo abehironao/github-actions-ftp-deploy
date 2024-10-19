@@ -1,6 +1,6 @@
 name: Deploy website on push
 on:
-  # The main branch push only
+  # Only allows pushes to the main branch
   push:
     branches: [ main ]
   # This action allows manual execution
